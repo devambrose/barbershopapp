@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BarberShop</string>
+    <string name="developers">Devambrose</string>
+    <string name="content_description_end_icon">user icon</string>
+    <string name="password_icon_description">Password Icon</string>
+    <string name="login_page">Login | Barber Shop App</string>
+    <string name="register_page">Register | Barber Shop App</string>
+    <string name="open_nav">Open Nav</string>
+    <string name="close_nav">Close Nav</string>
+    <string name="dashboard">Dashboard | Barber Shop App</string>
+    <string name="dev">devambrose</string>
+    <string name="logout">log out</string>
+    <string name="string_date">%1$d/%2$d/%3$d</string>
+    <string name="string_amount">KES %1$s</string>
+    <string name="my_services">My Services</string>
+    <string name="customers_page">Customers | Barbers App</string>
+    <string name="username_or_email_address">Username or Email Address</string>
+    <string name="password">Password</string>
+</resources>

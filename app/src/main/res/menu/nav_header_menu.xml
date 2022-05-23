@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Dashboard"
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        />
+
+    <item
+        android:id="@+id/menu_customers"
+        android:title="My Customers"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        />
+
+    <item
+        android:icon="@drawable/ic_baseline_support_agent_24"
+        android:title="@string/my_services"
+        android:id="@+id/menu_services"
+        />
+
+    <item
+        android:id="@+id/menu_appointments"
+        android:icon="@drawable/ic_baseline_access_alarms_24"
+        android:title="Appointments" />
+</menu>
