@@ -55,11 +55,9 @@ class AppointmentRecyclerView(private val list:List<Appointments>,private val cl
 
         if(item.status==3){
             status="cancelled"
-
-            holder.itemTotal.text=status
-
             holder.itemTotal.setTextColor(Color.RED)
         }
+        holder.itemTotal.text=status
 
         holder.itemService.text=item.product
 

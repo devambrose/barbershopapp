@@ -120,7 +120,9 @@ class AppointmentFragment:Fragment() {
                 return@setOnClickListener
             }
 
-            viewModel.saveAppointment(selectedCustomer!!.id,selectedCustomer!!.username,selectedService!!.id,selectedService!!.name,date.text.toString(),time.text.toString())
+            viewModel.saveAppointment(selectedCustomer!!.id,selectedCustomer!!.username,
+                selectedService.id,
+                selectedService.name,date.text.toString(),time.text.toString())
 
 
             showSuccessDialog(requireContext(),"Appointment Saved Successfully !!"){

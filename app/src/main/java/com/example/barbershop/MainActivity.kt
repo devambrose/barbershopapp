@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 
         val userId = sharedPreferences.getInt(Globals.USER_ID,0)
 
-        if (userId?.toInt() != 0) {
+        if (userId != 0) {
             val menu: Menu = navigationMainView.menu
             menu.findItem(R.id.menu_customers).isVisible = false
             menu.findItem(R.id.menu_services).isVisible = false

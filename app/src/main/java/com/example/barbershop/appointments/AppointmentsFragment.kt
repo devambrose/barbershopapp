@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -22,6 +23,8 @@ class AppointmentsFragment:Fragment(),AppointmentRecyclerView.ClickListener {
         savedInstanceState: Bundle?
     ): View {
         val view = inflater.inflate(R.layout.appointment_fragment, container, false)
+
+        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.appointments_string)
 
         viewModel= ServicesViewModel(requireActivity().application)
 

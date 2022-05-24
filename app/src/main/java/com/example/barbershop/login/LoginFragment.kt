@@ -44,8 +44,6 @@ class LoginFragment:Fragment() {
 
             val editor: SharedPreferences.Editor = sharedPreferences.edit()
 
-            var status=false
-
             val dialog= showProgressDialog(requireContext(),"Processing Login ") {
 
             }

@@ -16,4 +16,5 @@
     <string name="customers_page">Customers | Barbers App</string>
     <string name="username_or_email_address">Username or Email Address</string>
     <string name="password">Password</string>
+    <string name="appointments_string">Appointments | Barber Shop App</string>
 </resources>
